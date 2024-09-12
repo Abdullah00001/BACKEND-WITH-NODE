@@ -20,11 +20,11 @@ dbConnect();
 
 /* ROUTES */
 app.post("/create-blog", blogCreateMiddleware, blogCreateController);
-app.patch("/edit-blog", blogUpdateController);
+app.put("/edit-blog", blogUpdateController);
 app.get("/blogs", blogsGetController);
 app.get("/blog-details/:id", blogsDetailsController);
 app.delete("/blog-remove/:id", blogDeleteController);
-app.patch("/blog-edit/:id", blogCreateMiddleware, blogEditController);
+app.put("/blog-edit/:id", blogCreateMiddleware, blogEditController);
 
 app.listen(port, () => {
   console.log(`Server Running On Port ${port}`);
