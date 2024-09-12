@@ -7,6 +7,6 @@ app.use(express.json());
 app.use(cors());
 
 import userRouter from './routes/user.routes.js';
-app.use('/', userRouter);
+app.use('/api/v1/user', userRouter);
 
 export { app };
