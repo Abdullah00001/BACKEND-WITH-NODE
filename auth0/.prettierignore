@@ -1,0 +1,29 @@
+# Ignore artifacts:
+node_modules
+build
+dist
+coverage
+
+# Ignore environment files:
+.env
+
+# Ignore logs:
+logs
+*.log
+
+# Ignore OS-specific files:
+.DS_Store
+
+# Ignore database files:
+*.db
+
+# Ignore front-end specific directories (if applicable):
+public
+static
+
+# Ignore package lock:
+package-lock.json
+
+# Ignore prettier config itself:
+.prettierrc
+.prettierignore
