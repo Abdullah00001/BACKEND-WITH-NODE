@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "address": "123 Main St, Springfield, IL 62701",
+      "phone_number": "+1-555-1234-567",
+      "username": "johndoe01"
+    },
+    {
+      "id": 2,
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com",
+      "address": "456 Elm St, Denver, CO 80203",
+      "phone_number": "+1-555-9876-543",
+      "username": "janesmith02"
+    },
+    {
+      "id": 3,
+      "first_name": "Michael",
+      "last_name": "Johnson",
+      "email": "michael.johnson@example.com",
+      "address": "789 Oak St, Austin, TX 73301",
+      "phone_number": "+1-555-6543-210",
+      "username": "michaeljohnson03"
+    },
+    {
+      "id": 4,
+      "first_name": "Emily",
+      "last_name": "Brown",
+      "email": "emily.brown@example.com",
+      "address": "101 Pine St, Seattle, WA 98101",
+      "phone_number": "+1-555-8765-432",
+      "username": "emilybrown04"
+    },
+    {
+      "id": 5,
+      "first_name": "David",
+      "last_name": "Williams",
+      "email": "david.williams@example.com",
+      "address": "202 Maple St, Boston, MA 02108",
+      "phone_number": "+1-555-3456-789",
+      "username": "davidwilliams05"
+    }
+  ]
+  
