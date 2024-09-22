@@ -5,10 +5,8 @@ export const createBlogController = async (req, res) => {
   try {
     const { blogTitle, blogBody, author } = req.body;
     const blogImageLocalFilePath = req.file.path;
-    console.log(blogImageLocalFilePath);
     const blogImg = await uploadOnCloudinary(blogImageLocalFilePath);
     if (!blogImg) return res.status(500).json({ message: 'upload failed' });
-    console.log(blogImg);
     const blog = new Blog({
       blogTitle,
       blogBody,

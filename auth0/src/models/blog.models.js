@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { User } from './user.models.js';
 const { Schema } = mongoose;
 
 const BlogSchema = new Schema(
@@ -14,7 +13,7 @@ const BlogSchema = new Schema(
     },
     author: {
       type: Schema.Types.ObjectId,
-      ref: User,
+      ref: "User",
     },
     blogImage: {
       type: String,
